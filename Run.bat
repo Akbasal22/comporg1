@@ -6,6 +6,11 @@ copy "RAM.mem" "%folder%/RAM.mem"
 cd "%folder%
 
 ::Arithmetic Logic Unit Simulation
+call xvlog ../ArithmeticLogicUnit.v  
+call xvlog ../ArithmeticLogicUnitSimulation.v
+call xvlog ../Helper.v
+call xelab -top ArithmeticLogicUnitSimulation -snapshot alusim -debug typical
+call xsim alusim -R
 
 
 ::Arithmetic Logic Unit System Simulation
