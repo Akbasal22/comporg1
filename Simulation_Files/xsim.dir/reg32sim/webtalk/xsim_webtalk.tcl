@@ -1,6 +1,6 @@
 webtalk_init -webtalk_dir C:/Users/alper/OneDrive/Masaüstü/ExampleSubmission_v2/Simulation_Files/xsim.dir/reg32sim/webtalk/
 webtalk_register_client -client project
-webtalk_add_data -client project -key date_generated -value "Mon Apr 14 22:50:38 2025" -context "software_version_and_target_device"
+webtalk_add_data -client project -key date_generated -value "Tue Apr 15 20:03:38 2025" -context "software_version_and_target_device"
 webtalk_add_data -client project -key product_version -value "XSIM v2017.4 (64-bit)" -context "software_version_and_target_device"
 webtalk_add_data -client project -key build_version -value "2086221" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_platform -value "WIN64" -context "software_version_and_target_device"
@@ -14,7 +14,7 @@ webtalk_add_data -client project -key target_package -value "not_applicable" -co
 webtalk_add_data -client project -key target_speed -value "not_applicable" -context "software_version_and_target_device"
 webtalk_add_data -client project -key random_id -value "a3f6dbbf-78ac-438f-9784-bfcbc254329c" -context "software_version_and_target_device"
 webtalk_add_data -client project -key project_id -value "f9aa8234-0329-4202-b53e-70c76c9e0472" -context "software_version_and_target_device"
-webtalk_add_data -client project -key project_iteration -value "18" -context "software_version_and_target_device"
+webtalk_add_data -client project -key project_iteration -value "22" -context "software_version_and_target_device"
 webtalk_add_data -client project -key os_name -value "Microsoft Windows 8 or later , 64-bit" -context "user_environment"
 webtalk_add_data -client project -key os_release -value "major release  (build 9200)" -context "user_environment"
 webtalk_add_data -client project -key cpu_name -value "12th Gen Intel(R) Core(TM) i5-1240P" -context "user_environment"
@@ -27,6 +27,6 @@ webtalk_add_data -client xsim -key Command -value "xsim" -context "xsim\\command
 webtalk_add_data -client xsim -key runtime -value "180 ns" -context "xsim\\usage"
 webtalk_add_data -client xsim -key iteration -value "1" -context "xsim\\usage"
 webtalk_add_data -client xsim -key Simulation_Time -value "0.00_sec" -context "xsim\\usage"
-webtalk_add_data -client xsim -key Simulation_Memory -value "9640_KB" -context "xsim\\usage"
-webtalk_transmit -clientid 1408292989 -regid "" -xml C:/Users/alper/OneDrive/Masaüstü/ExampleSubmission_v2/Simulation_Files/xsim.dir/reg32sim/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/alper/OneDrive/Masaüstü/ExampleSubmission_v2/Simulation_Files/xsim.dir/reg32sim/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/alper/OneDrive/Masaüstü/ExampleSubmission_v2/Simulation_Files/xsim.dir/reg32sim/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
+webtalk_add_data -client xsim -key Simulation_Memory -value "9664_KB" -context "xsim\\usage"
+webtalk_transmit -clientid 1162266627 -regid "" -xml C:/Users/alper/OneDrive/Masaüstü/ExampleSubmission_v2/Simulation_Files/xsim.dir/reg32sim/webtalk/usage_statistics_ext_xsim.xml -html C:/Users/alper/OneDrive/Masaüstü/ExampleSubmission_v2/Simulation_Files/xsim.dir/reg32sim/webtalk/usage_statistics_ext_xsim.html -wdm C:/Users/alper/OneDrive/Masaüstü/ExampleSubmission_v2/Simulation_Files/xsim.dir/reg32sim/webtalk/usage_statistics_ext_xsim.wdm -intro "<H3>XSIM Usage Report</H3><BR>"
 webtalk_terminate

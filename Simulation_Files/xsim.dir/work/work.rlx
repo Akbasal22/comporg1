@@ -2,10 +2,10 @@
 2017.4
 Dec 15 2017
 21:07:18
-C:/Users/alper/OneDrive/Masaüstü/ExampleSubmission_v2/AddressRegisterFile.v,1744669851,verilog,,,,AddressRegisterFile,,,,,,,,
+C:/Users/alper/OneDrive/Masaüstü/ExampleSubmission_v2/AddressRegisterFile.v,1744736453,verilog,,,,AddressRegisterFile,,,,,,,,
 C:/Users/alper/OneDrive/Masaüstü/ExampleSubmission_v2/AddressRegisterFileSimulation.v,1744390235,verilog,,,,AddressRegisterFileSimulation,,,,,,,,
-C:/Users/alper/OneDrive/Masaüstü/ExampleSubmission_v2/ArithmeticLogicUnit.v,1744670801,verilog,,,,ArithmeticLogicUnit,,,,,,,,
-C:/Users/alper/OneDrive/Masaüstü/ExampleSubmission_v2/ArithmeticLogicUnitSimulation.v,1744388173,verilog,,,,ArithmeticLogicUnitSimulation,,,,,,,,
+C:/Users/alper/OneDrive/Masaüstü/ExampleSubmission_v2/ArithmeticLogicUnit.v,1744742746,verilog,,,,ArithmeticLogicUnit,,,,,,,,
+C:/Users/alper/OneDrive/Masaüstü/ExampleSubmission_v2/ArithmeticLogicUnitSimulation.v,1744738015,verilog,,,,ArithmeticLogicUnitSimulation,,,,,,,,
 C:/Users/alper/OneDrive/Masaüstü/ExampleSubmission_v2/ArithmeticLogicUnitSystem.v,1744669739,verilog,,,,ArithmeticLogicUnitSystem;MUX_2TO1_32BIT;MUX_4TO1_32BIT;MUX_4TO1_8BIT,,,,,,,,
 C:/Users/alper/OneDrive/Masaüstü/ExampleSubmission_v2/ArithmeticLogicUnitSystemSimulation.v,1744664517,verilog,,,,ArithmeticLogicUnitSystemSimulation,,,,,,,,
 C:/Users/alper/OneDrive/Masaüstü/ExampleSubmission_v2/DataRegister.v,1744391929,verilog,,,,DataRegister,,,,,,,,
@@ -16,7 +16,7 @@ C:/Users/alper/OneDrive/Masaüstü/ExampleSubmission_v2/InstructionRegisterSimulat
 C:/Users/alper/OneDrive/Masaüstü/ExampleSubmission_v2/Memory.v,1744388174,verilog,,,,Memory,,,,,,,,
 C:/Users/alper/OneDrive/Masaüstü/ExampleSubmission_v2/Register16bit.v,1744399486,verilog,,,,Register16bit,,,,,,,,
 C:/Users/alper/OneDrive/Masaüstü/ExampleSubmission_v2/Register16bitSimulation.v,1744391279,verilog,,,,Register16bitSimulation,,,,,,,,
-C:/Users/alper/OneDrive/Masaüstü/ExampleSubmission_v2/Register32bit.v,1744670095,verilog,,,,Register32bit,,,,,,,,
+C:/Users/alper/OneDrive/Masaüstü/ExampleSubmission_v2/Register32bit.v,1744736003,verilog,,,,Register32bit,,,,,,,,
 C:/Users/alper/OneDrive/Masaüstü/ExampleSubmission_v2/Register32bitSimulation.v,1744388174,verilog,,,,Register32bitSimulation,,,,,,,,
-C:/Users/alper/OneDrive/Masaüstü/ExampleSubmission_v2/RegisterFile.v,1744670093,verilog,,,,RegisterFile,,,,,,,,
+C:/Users/alper/OneDrive/Masaüstü/ExampleSubmission_v2/RegisterFile.v,1744736384,verilog,,,,RegisterFile,,,,,,,,
 C:/Users/alper/OneDrive/Masaüstü/ExampleSubmission_v2/RegisterFileSimulation.v,1744661164,verilog,,,,RegisterFileSimulation,,,,,,,,

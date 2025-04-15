@@ -1,7 +1,7 @@
-Running: xsim.dir/alusyssim/xsimk.exe -runall -simmode gui -wdb alusyssim.wdb -simrunnum 0 -socket 55583
+Running: xsim.dir/alusyssim/xsimk.exe -runall -simmode gui -wdb alusyssim.wdb -simrunnum 0 -socket 65375
 Design successfully loaded
 Design Loading Memory Usage: 9092 KB (Peak: 9092 KB)
-Design Loading CPU Usage: 15 ms
+Design Loading CPU Usage: 62 ms
 Simulation completed
-Simulation Memory Usage: 9992 KB (Peak: 9992 KB)
-Simulation CPU Usage: 15 ms
+Simulation Memory Usage: 10004 KB (Peak: 10004 KB)
+Simulation CPU Usage: 92 ms

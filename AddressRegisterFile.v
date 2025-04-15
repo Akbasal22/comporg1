@@ -20,7 +20,7 @@
 
         Register16bit AR(
             .I(I[15:0]),
-            .E(RegSel[2]),
+            .E(RegSel[0]),
             .FunSel(FunSel),
             .Clock(Clock),
             .Q(AR_Out)
@@ -36,7 +36,7 @@
 
         Register16bit PC(
             .I(I[15:0]),
-            .E(RegSel[0]),
+            .E(RegSel[2]),
             .FunSel(FunSel),
             .Clock(Clock),
             .Q(PC_Out)
