@@ -10,19 +10,19 @@ module DataRegister(
     always @(posedge Clock) begin
         if (E) begin
             case (FunSel)
-                2'b00: begin                    // Sign extend and load
+                2'b00: begin
                     DROut[31:8] <= {24{I[7]}};     
                     DROut[7:0]  <= I;              
                 end
-                2'b01: begin                    // Clear upper 24 bits and load I to the rest
+                2'b01: begin                    
                     DROut[31:8] <= 24'b0;        
                     DROut[7:0]  <= I;            
                 end
-                2'b10: begin                    // Left shift by 8 bits and load I
+                2'b10: begin           
                     DROut[31:8] <= {DROut[23:0], 8'b0};   
                     DROut[7:0]  <= I;                 
                 end
-                2'b11: begin                    // Right shift by 8 bits, then load 
+                2'b11: begin             
                     DROut[31:8] <= {8'b0, DROut[31:8]};  
                     DROut[31:24] <= I;                    
                 end

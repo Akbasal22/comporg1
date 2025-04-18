@@ -12,7 +12,6 @@
             output wire [15:0] OutD         
         );
 
-        // R[0]-R[2] : AR, SP, PC
         
         wire [15:0] AR_Out;
         wire [15:0] SP_Out;

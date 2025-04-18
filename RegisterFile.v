@@ -12,13 +12,12 @@ module RegisterFile(
     output reg [31:0] OutB
 );
 
-    // === Internal wires ===
+
     wire [31:0] R1_out, R2_out, R3_out, R4_out;
     wire [31:0] S1_out, S2_out, S3_out, S4_out;
 
-     // === Output MUX ===
+
     always @(*) begin
-            // Normal operation for other cases
             case (OutASel)
                 3'b000: OutA = R1_out;
                 3'b001: OutA = R2_out;
@@ -45,7 +44,6 @@ module RegisterFile(
         end
 
 
-    // === Named register instances (so testbench can access) ===
     Register32bit R1 (.I(I), .Clock(Clock), .E(RegSel[3]), .FunSel(FunSel), .Q(R1_out));
     Register32bit R2 (.I(I), .Clock(Clock), .E(RegSel[2]), .FunSel(FunSel), .Q(R2_out));
     Register32bit R3 (.I(I), .Clock(Clock), .E(RegSel[1]), .FunSel(FunSel), .Q(R3_out));

@@ -3,7 +3,6 @@ Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
 Running: C:/Xilinx_comporg/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -top ArithmeticLogicUnitSystemSimulation -snapshot alusyssim -debug typical 
 Multi-threading is on. Using 14 slave threads.
 Starting static elaboration
-WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 4 for port FlagsOut [C:/Users/alper/OneDrive/Masaüstü/ExampleSubmission_v2/ArithmeticLogicUnitSystem.v:103]
 WARNING: [VRFC 10-1770] port OutA remains unconnected for this instance [C:/Users/alper/OneDrive/Masaüstü/ExampleSubmission_v2/ArithmeticLogicUnitSystemSimulation.v:25]
 Completed static elaboration
 Starting simulation data flow analysis
