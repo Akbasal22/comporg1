@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sat Apr 19 16:36:43 2025
+# Process ID: 18036
+# Current directory: C:/Users/alper/OneDrive/Masaüstü/ExampleSubmission_v2/Simulation_Files
+# Command line: wbtcv.exe -mode batch -source C:/Users/alper/OneDrive/Masaüstü/ExampleSubmission_v2/Simulation_Files/xsim.dir/dataregsim/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/alper/OneDrive/Masaüstü/ExampleSubmission_v2/Simulation_Files/webtalk.log
+# Journal file: C:/Users/alper/OneDrive/Masaüstü/ExampleSubmission_v2/Simulation_Files\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/alper/OneDrive/Masaüstü/ExampleSubmission_v2/Simulation_Files/xsim.dir/dataregsim/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Apr 19 16:36:43 2025...

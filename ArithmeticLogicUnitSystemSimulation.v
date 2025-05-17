@@ -23,28 +23,17 @@ module ArithmeticLogicUnitSystemSimulation();
     
     CrystalOscillator clk();
     ArithmeticLogicUnitSystem ALUSys(
-        .RF_OutASel(RF_OutASel),   
-        .RF_OutBSel(RF_OutBSel), 
-        .RF_FunSel(RF_FunSel),     
-        .RF_RegSel(RF_RegSel),
-        .RF_ScrSel(RF_ScrSel),     
-        .ALU_FunSel(ALU_FunSel),
-        .ALU_WF(ALU_WF),           
-        .ARF_OutCSel(ARF_OutCSel), 
-        .ARF_OutDSel(ARF_OutDSel), 
-        .ARF_FunSel(ARF_FunSel),
-        .ARF_RegSel(ARF_RegSel),   
-        .IR_LH(IR_LH),
-        .IR_Write(IR_Write),       
-        .Mem_WR(Mem_WR),
-        .Mem_CS(Mem_CS),           
-        .MuxASel(MuxASel),
-        .MuxBSel(MuxBSel),         
-        .MuxCSel(MuxCSel),
-        .Clock(clk.clock),         
-        .DR_FunSel(DR_FunSel),
-        .DR_E(DR_E),               
-        .MuxDSel(MuxDSel) 
+        .RF_OutASel(RF_OutASel),   .RF_OutBSel(RF_OutBSel), 
+        .RF_FunSel(RF_FunSel),     .RF_RegSel(RF_RegSel),
+        .RF_ScrSel(RF_ScrSel),     .ALU_FunSel(ALU_FunSel),
+        .ALU_WF(ALU_WF),           .ARF_OutCSel(ARF_OutCSel), 
+        .ARF_OutDSel(ARF_OutDSel), .ARF_FunSel(ARF_FunSel),
+        .ARF_RegSel(ARF_RegSel),   .IR_LH(IR_LH),
+        .IR_Write(IR_Write),       .Mem_WR(Mem_WR),
+        .Mem_CS(Mem_CS),           .MuxASel(MuxASel),
+        .MuxBSel(MuxBSel),         .MuxCSel(MuxCSel),
+        .Clock(clk.clock),         .DR_FunSel(DR_FunSel),
+        .DR_E(DR_E),               .MuxDSel(MuxDSel) 
     ); 
     FileOperation F();
     

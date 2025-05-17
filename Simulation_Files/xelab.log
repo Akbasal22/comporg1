@@ -1,26 +1,7 @@
 Vivado Simulator 2017.4
 Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx_comporg/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -top ArithmeticLogicUnitSystemSimulation -snapshot alusyssim -debug typical 
+Running: C:/Xilinx_comporg/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -top CPUSystemSimulation -snapshot cpusyssim -debug typical 
 Multi-threading is on. Using 14 slave threads.
 Starting static elaboration
-WARNING: [VRFC 10-1770] port OutA remains unconnected for this instance [C:/Users/alper/OneDrive/Masaüstü/ExampleSubmission_v2/ArithmeticLogicUnitSystemSimulation.v:25]
-Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module work.CrystalOscillator
-Compiling module work.MUX_2TO1_32BIT
-Compiling module work.Register32bit
-Compiling module work.RegisterFile
-Compiling module work.ArithmeticLogicUnit
-Compiling module work.MUX_4TO1_32BIT
-Compiling module work.Register16bit
-Compiling module work.AddressRegisterFile
-Compiling module work.Memory
-Compiling module work.InstructionRegister
-Compiling module work.DataRegister
-Compiling module work.MUX_4TO1_8BIT
-Compiling module work.ArithmeticLogicUnitSystem
-Compiling module work.FileOperation
-Compiling module work.ArithmeticLogicUnitSystemSimulat...
-Built simulation snapshot alusyssim
+ERROR: [VRFC 10-529] concurrent assignment to a non-net T is not permitted [C:/Users/alper/OneDrive/Masaüstü/ExampleSubmission_v2/CPUSystemSimulation.v:28]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
